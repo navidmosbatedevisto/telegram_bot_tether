@@ -77,6 +77,7 @@ class MessageFactory
         foreach ($msg as $provider_label => $price_info) {
             $priceRow = $row = new \Laminas\Text\Table\Row();
 
+            // need refactor this snippet!
             $priceRow->appendColumn(new \Laminas\Text\Table\Column(trim($provider_label),'center'));
             $priceRow->appendColumn(new \Laminas\Text\Table\Column( is_numeric(str_replace(',','',trim((string) $price_info['buy']))) ? ($this->fa_number(floatval(str_replace(',','',trim((string) $price_info['buy']))))) : trim((string) $price_info['buy']) ,'center'));
             $priceRow->appendColumn(new \Laminas\Text\Table\Column( is_numeric(str_replace(',','',trim((string) $price_info['sell']))) ? ($this->fa_number(floatval(str_replace(',','',trim((string) $price_info['sell']))))) : trim((string) $price_info['sell']),'center'));
