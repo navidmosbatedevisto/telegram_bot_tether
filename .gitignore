@@ -17,4 +17,4 @@ composer.phar
 
 # Built Visual Studio Code Extensions
 *.vsix
-cookie.txt
+cookie.txt #used by curl
