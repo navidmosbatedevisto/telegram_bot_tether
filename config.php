@@ -2,8 +2,8 @@
 return
     [
         "telegram" => [
-            "token" => '5737718318:AAHGQlashq_MQqHI4ECu1qA-iXkzBOGxIAM',
-            "group_id" => '-1001201927536'
+            "token" => '5737718318:AAHGQlashq_MQqHI4ECu1qA-iXkzBOGxIAM', #your bot token goes here
+            "group_id" => '-1001201927536' # your intended group[chat] id goes here
         ],
 
         "providers" => [
