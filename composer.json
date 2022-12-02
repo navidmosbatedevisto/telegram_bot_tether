@@ -1,0 +1,21 @@
+{
+    "name": "navid/telegram_tether_bot",
+    "autoload": {
+        "psr-4": {
+            "Navid\\TelegramTetherBot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "navid",
+            "email": "naferonaferonafero@gmail.com"
+        }
+    ],
+    "require": {
+        "malios/php-to-ascii-table": "^3.0",
+        "laminas/laminas-text": "^2.9",
+        "hekmatinasser/verta": "^8.1",
+        "mathieuviossat/arraytotexttable": "^1.0",
+        "dekor/php-array-table": "^1.0"
+    }
+}
